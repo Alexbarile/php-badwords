@@ -2,6 +2,7 @@
 
     $paragraph = $_POST['paragraph'];
     $censored = $_POST['censored'];
+    // var_dump($_POST);
 
     // mostro a schermo il paragrafo e la lunghezza
 

@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* INDEX.PHP */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+input:hover {
+    border: 2px solid rgb(159, 159, 238);
+}
+
+button {
+    padding: 10px 40px 10px 40px;
+    background-color: rgb(182, 182, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(128, 128, 255);
+}
+
+/* WELCOME.PHP */
+
+h2 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}

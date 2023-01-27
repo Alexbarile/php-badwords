@@ -8,10 +8,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="./welcome.php" method="GET">
-        <input type="text" name="paragraph" id="paragraph" placeholder="Inserisci un paragrafo">
-        <input type="password" name="censored" id="censored" placeholder="Censored">
-        <button type="submit">Invia</button>
-    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form action="./welcome.php" method="POST">
+                    <input type="text" name="paragraph" id="paragraph" placeholder="Inserisci un paragrafo">
+                    <input type="password" name="censored" id="censored" placeholder="Censored">
+                    <button type="submit">Invia</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
