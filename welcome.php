@@ -12,8 +12,9 @@
 
     // mostro a schermo il paragrafo con la censura e la lunghezza
     
-    echo str_replace($censored, '***', $paragraph);
-    echo strlen($paragraph); 
+    $new_content = str_replace($censored, '***', $paragraph);
+    echo ($new_content);
+    echo strlen($new_content); 
 
 ?>
 
